@@ -1,0 +1,4 @@
+streamlit>=1.33
+pdfminer.six>=20231228
+python-docx>=1.1.0
+lxml>=4.9.3
