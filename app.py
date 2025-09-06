@@ -140,7 +140,7 @@ def parse_any(file_bytes: bytes, filename: str) -> List[MCQ]:
 # --------- UI ---------
 st.set_page_config(page_title="PDF/DOCX ➜ Exam", layout="centered")
 st.title("📄 ➜ 📝 Build an Exam from a PDF/DOCX")
-st.caption("Upload your CAIE Questions & Answers file (PDF or Word) and take an interactive exam.")
+st.caption("Upload your Questions & Answers file (PDF or Word) and take an interactive exam.")
 
 with st.sidebar:
     shuffle = st.toggle("Shuffle questions", value=False)
@@ -413,3 +413,4 @@ if uploaded is not None:
         )
 else:
     st.info("Upload a PDF or DOCX to get started.")
+
